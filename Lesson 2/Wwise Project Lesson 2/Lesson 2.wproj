@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="75" WwiseVersion="v2016.2.0" WwiseBuild="5972">
+<WwiseDocument Type="Project" SchemaVersion="75" WwiseVersion="v2016.2.3" WwiseBuild="6077">
 	<ProjectInfo>
 		<Project Name="Lesson 2" ID="{6B7846D3-C649-44BC-BA1C-395BB5B9407E}">
 			<Platforms>
@@ -647,11 +647,16 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="6" CompanyID="262" PluginID="1">
+				<SharedPropertyList ClassName="IOSONO Proximity" PluginType="6" CompanyID="262" PluginID="1">
 					<PropertyList>
 						<Property Name="Bypass" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -679,7 +684,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="2">
+				<SharedPropertyList ClassName="iZotope Hybrid Reverb" PluginType="3" CompanyID="259" PluginID="2">
 					<PropertyList>
 						<Property Name="DecayHighFrequency" Type="Real32">
 							<ValueList>
@@ -724,6 +729,11 @@
 						<Property Name="FrontWet" Type="Real32">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="PredelayFront" Type="Real32">
@@ -792,7 +802,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="262" PluginID="2">
+				<SharedPropertyList ClassName="AttachableMixerInput" PluginType="3" CompanyID="262" PluginID="2">
 					<PropertyList>
 						<Property Name="ProximityGain" Type="Real32">
 							<ValueList>
@@ -1015,7 +1025,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="3">
+				<SharedPropertyList ClassName="iZotope Trash Distortion" PluginType="3" CompanyID="259" PluginID="3">
 					<PropertyList>
 						<Property Name="Distortion1InputGain" Type="Real32">
 							<ValueList>
@@ -1075,6 +1085,11 @@
 						<Property Name="Distortion2Type" Type="int32">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1188,7 +1203,7 @@
 					</PropertyList>
 				</SharedPropertyList>
 				<SharedPropertyList ClassName="Event" PluginType="0" CompanyID="1" PluginID="4"/>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="4">
+				<SharedPropertyList ClassName="iZotope Trash Delay" PluginType="3" CompanyID="259" PluginID="4">
 					<PropertyList>
 						<Property Name="DelayType" Type="int32">
 							<ValueList>
@@ -1213,6 +1228,11 @@
 						<Property Name="HighQ" Type="Real32">
 							<ValueList>
 								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="LowCutoff" Type="Real32">
@@ -1440,7 +1460,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="5">
+				<SharedPropertyList ClassName="iZotope Trash Dynamics Mono" PluginType="3" CompanyID="259" PluginID="5">
 					<PropertyList>
 						<Property Name="Bypass" Type="int32">
 							<ValueList>
@@ -1492,6 +1512,11 @@
 								<Value>0</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 				</SharedPropertyList>
 				<SharedPropertyList ClassName="State" PluginType="0" CompanyID="1" PluginID="6">
@@ -1528,7 +1553,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="6">
+				<SharedPropertyList ClassName="iZotope Trash Filters" PluginType="3" CompanyID="259" PluginID="6">
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32">
 							<ValueList>
@@ -1710,6 +1735,11 @@
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 				</SharedPropertyList>
 				<SharedPropertyList ClassName="StateGroup" PluginType="0" CompanyID="1" PluginID="7">
@@ -1721,11 +1751,16 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="7">
+				<SharedPropertyList ClassName="iZotope Trash Box Modeler" PluginType="3" CompanyID="259" PluginID="7">
 					<PropertyList>
 						<Property Name="BoxModel" Type="int32">
 							<ValueList>
 								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="InputGain" Type="Real32">
@@ -2578,7 +2613,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="9">
+				<SharedPropertyList ClassName="iZotope Trash Multiband Distortion" PluginType="3" CompanyID="259" PluginID="9">
 					<PropertyList>
 						<Property Name="Distortion1Band1InputGain" Type="Real32">
 							<ValueList>
@@ -2758,6 +2793,11 @@
 						<Property Name="Distortion2Band3Type" Type="int32">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MultibandCrossover1" Type="Real32">
@@ -7116,11 +7156,16 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="256" PluginID="103">
+				<SharedPropertyList ClassName="McDSP ML1" PluginType="3" CompanyID="256" PluginID="103">
 					<PropertyList>
 						<Property Name="Ceiling" Type="Real32">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Knee" Type="Real32">
@@ -7410,7 +7455,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="256" PluginID="110">
+				<SharedPropertyList ClassName="McDSP FutzBox" PluginType="3" CompanyID="256" PluginID="110">
 					<PropertyList>
 						<Property Name="Balance" Type="Real32">
 							<ValueList>
@@ -7530,6 +7575,11 @@
 						<Property Name="GateThreshold" Type="Real32">
 							<ValueList>
 								<Value>-40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="InputGain" Type="Real32">
@@ -10045,7 +10095,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="263" PluginID="1100">
+				<SharedPropertyList ClassName="Auro Headphone" PluginType="3" CompanyID="263" PluginID="1100">
 					<PropertyList>
 						<Property Name="Bypass" Type="bool">
 							<ValueList>
@@ -10065,6 +10115,11 @@
 						<Property Name="ER_Level" Type="Real32">
 							<ValueList>
 								<Value>-6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="LFE_level" Type="Real32">
@@ -10144,11 +10199,16 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="6" CompanyID="263" PluginID="1101">
+				<SharedPropertyList ClassName="Auro Panner" PluginType="6" CompanyID="263" PluginID="1101">
 					<PropertyList>
 						<Property Name="EnableDefaultSpatialization" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="PanningLawdB" Type="Real32">
@@ -10158,7 +10218,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="263" PluginID="1102">
+				<SharedPropertyList ClassName="AttachableMixerInput" PluginType="3" CompanyID="263" PluginID="1102">
 					<PropertyList>
 						<Property Name="CenterFactorFC" Type="Real32">
 							<ValueList>

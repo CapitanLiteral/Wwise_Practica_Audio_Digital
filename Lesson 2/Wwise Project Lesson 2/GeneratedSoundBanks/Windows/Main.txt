@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1367775454	Fire_Shotgun_Player			\Default Work Unit\Fire_Shotgun_Player	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	478474065	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	76463748	Shotgun_Pump_In	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun_Pump_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun_Pump_In		22112
+	188248568	ShotgunShellsConcrete_2	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_2_F620FC39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells_Tail\ShotgunShellsConcrete_2		98368
+	262204399	ShotgunShellsConcrete_4	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_4_1A81CA2E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells_Tail\ShotgunShellsConcrete_4		114314
+	304840524	ShotgunShellsConcrete_4	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_4_15E204EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_4		13602
+	492776185	ShotgunShellsConcrete_3	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_3_A1DCD527.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells_Tail\ShotgunShellsConcrete_3		97052
+	683934501	Shotgun_Pump_Out	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun_Pump_DB9D0638.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun_Pump_Out		16206
+	718620851	ShotgunShellsConcrete_1	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_1_DBFCB9A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_1		18430
+	733548006	ShotgunShellsConcrete_1	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_1_8D11CB71.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells_Tail\ShotgunShellsConcrete_1		31004
+	795409359	Shotgun_Blast	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun_Blast_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun_Blast		179026
+	1005269056	ShotgunShellsConcrete_2	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_2_38770144.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_2		19454
+	1039380829	ShotgunShellsConcrete_3	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_3_D4293269.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_3		23404
+

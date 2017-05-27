@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 2\Wwise Project Lesson 2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1367775454" Name="Fire_Shotgun_Player" ObjectPath="\Events\Default Work Unit\Fire_Shotgun_Player"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="76463748" Language="SFX">
+					<ShortName>Shotgun_Pump.wav</ShortName>
+					<Path>SFX\Shotgun_Pump_9E69E797.wem</Path>
+				</File>
+				<File Id="188248568" Language="SFX">
+					<ShortName>Shotgun Shells\ShotgunShellsConcrete_2.wav</ShortName>
+					<Path>SFX\Shotgun Shells\ShotgunShellsConcrete_2_F620FC39.wem</Path>
+				</File>
+				<File Id="262204399" Language="SFX">
+					<ShortName>Shotgun Shells\ShotgunShellsConcrete_4.wav</ShortName>
+					<Path>SFX\Shotgun Shells\ShotgunShellsConcrete_4_1A81CA2E.wem</Path>
+				</File>
+				<File Id="304840524" Language="SFX">
+					<ShortName>Shotgun Shells\ShotgunShellsConcrete_4.wav</ShortName>
+					<Path>SFX\Shotgun Shells\ShotgunShellsConcrete_4_15E204EE.wem</Path>
+				</File>
+				<File Id="492776185" Language="SFX">
+					<ShortName>Shotgun Shells\ShotgunShellsConcrete_3.wav</ShortName>
+					<Path>SFX\Shotgun Shells\ShotgunShellsConcrete_3_A1DCD527.wem</Path>
+				</File>
+				<File Id="683934501" Language="SFX">
+					<ShortName>Shotgun_Pump.wav</ShortName>
+					<Path>SFX\Shotgun_Pump_DB9D0638.wem</Path>
+				</File>
+				<File Id="718620851" Language="SFX">
+					<ShortName>Shotgun Shells\ShotgunShellsConcrete_1.wav</ShortName>
+					<Path>SFX\Shotgun Shells\ShotgunShellsConcrete_1_DBFCB9A1.wem</Path>
+				</File>
+				<File Id="733548006" Language="SFX">
+					<ShortName>Shotgun Shells\ShotgunShellsConcrete_1.wav</ShortName>
+					<Path>SFX\Shotgun Shells\ShotgunShellsConcrete_1_8D11CB71.wem</Path>
+				</File>
+				<File Id="795409359" Language="SFX">
+					<ShortName>Shotgun_Blast.wav</ShortName>
+					<Path>SFX\Shotgun_Blast_9E69E797.wem</Path>
+				</File>
+				<File Id="1005269056" Language="SFX">
+					<ShortName>Shotgun Shells\ShotgunShellsConcrete_2.wav</ShortName>
+					<Path>SFX\Shotgun Shells\ShotgunShellsConcrete_2_38770144.wem</Path>
+				</File>
+				<File Id="1039380829" Language="SFX">
+					<ShortName>Shotgun Shells\ShotgunShellsConcrete_3.wav</ShortName>
+					<Path>SFX\Shotgun Shells\ShotgunShellsConcrete_3_D4293269.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

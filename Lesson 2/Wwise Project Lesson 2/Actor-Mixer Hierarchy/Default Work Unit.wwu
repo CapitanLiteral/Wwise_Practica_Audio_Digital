@@ -22,6 +22,582 @@
 						<ActiveSource Name="Shotgun_Blast" ID="{37C08F38-A3FF-400D-82FC-22BA1E1FA862}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Shotgun_Pump_In" ID="{171FB83C-BDB7-4446-8194-BD52F7785352}" ShortID="105865632" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shotgun_Pump" ID="{5488B01B-34CC-40A4-85B0-D7E6A011D583}" ShortID="76463748">
+							<Language>SFX</Language>
+							<AudioFile>Shotgun_Pump.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shotgun_Pump" ID="{5488B01B-34CC-40A4-85B0-D7E6A011D583}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Shotgun_Pump_Out" ID="{935D9311-4F5A-4A82-9F61-5B1366E7A17B}" ShortID="302997507" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shotgun_Pump" ID="{F4A71375-B4A3-47E6-9232-1B720CDE9CBC}" ShortID="683934501">
+							<PropertyList>
+								<Property Name="TrimBegin" Type="Real64" Value="6.69582118561713E-02"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Shotgun_Pump.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shotgun_Pump" ID="{F4A71375-B4A3-47E6-9232-1B720CDE9CBC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Shotgun Shells" ID="{A4586DBA-9754-421D-9A3B-D7067BD8225D}" ShortID="767050472">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Shotgun Shells Head" ID="{9ACABB7B-74ED-47E4-B8AF-BE96AA9DF7F5}" ShortID="242934682">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4496E46E-F88B-454B-B843-FD0D683F96FC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ShotgunShellsConcrete_1" ID="{DB77B3E0-6C7D-4FC0-B9EB-D390856E7044}" ShortID="289669331" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{39D6AF2E-B2BF-4786-9E22-445D7EF09BBD}" ShortID="733548006">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.178296080336897"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.207321023647554"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="718620851"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_1" ID="{39D6AF2E-B2BF-4786-9E22-445D7EF09BBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_2" ID="{1B3756FE-353D-494E-BB3B-6CF620C45B97}" ShortID="659123151" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{2AA54499-1E6C-4023-BECC-137C0737D0AC}" ShortID="188248568">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.164198250728863"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.218931000971818"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1005269056"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_2" ID="{2AA54499-1E6C-4023-BECC-137C0737D0AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_3" ID="{996FEA2F-57B7-4D00-BCFE-32BEE0E7A480}" ShortID="111364638" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{97BD50B9-AC05-410B-A723-A8941607E346}" ShortID="492776185">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.222248137350178"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.26371234207969"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1039380829"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_3" ID="{97BD50B9-AC05-410B-A723-A8941607E346}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_4" ID="{868A5EBA-3E57-4919-B064-1178ED3E7D8D}" ShortID="516884187" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{16461BC9-8E05-4933-A4ED-B3F99C1CAA31}" ShortID="262204399">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="9.95140913508261E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.1525882734046"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_4.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="304840524"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_4" ID="{16461BC9-8E05-4933-A4ED-B3F99C1CAA31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_5" ID="{C4A5F93D-BF8B-4A2D-B965-7455A16EB14D}" ShortID="271124011" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_5" ID="{845032D3-5B4B-41B8-9FED-B479BA45C20C}" ShortID="303289734">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_5" ID="{845032D3-5B4B-41B8-9FED-B479BA45C20C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_6" ID="{EDCAD52F-351A-400E-B8F2-0D7080FF0D59}" ShortID="423188027" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_6" ID="{1C4D1E98-19ED-4BB6-AE7E-6A9655FA8C93}" ShortID="871174579">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_6" ID="{1C4D1E98-19ED-4BB6-AE7E-6A9655FA8C93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_7" ID="{8C536DD6-38FD-45F8-8919-89346C47E2F1}" ShortID="643515375" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_7" ID="{D84405D1-7133-4E80-A26C-58CA95D415B0}" ShortID="1063557448">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_7" ID="{D84405D1-7133-4E80-A26C-58CA95D415B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_8" ID="{E706010C-F4FD-4F34-A519-44554F8F9B26}" ShortID="531026154" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_8" ID="{6A7B6056-EFF3-4E22-ABEB-C9E6447E79EB}" ShortID="113807843">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_8" ID="{6A7B6056-EFF3-4E22-ABEB-C9E6447E79EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Shotgun Shells_Tail" ID="{FECFA792-530E-4839-9D5B-F2FA28005E6F}" ShortID="977830569">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4563A1BD-02EE-4342-9F29-720440E3A1D1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ShotgunShellsConcrete_1" ID="{B4193D69-7D47-42C3-A42A-B04D49C38440}" ShortID="255692773" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{DE12EDF2-2C4E-4F01-B76E-F53E55A6DA34}" ShortID="718620851">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.291908001295756"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.392251376741173"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="733548006"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_1" ID="{DE12EDF2-2C4E-4F01-B76E-F53E55A6DA34}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_2" ID="{3BE716CA-EF7F-4722-9B75-C3E0E8B8156E}" ShortID="1035417110" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{266B77BA-B516-4245-8BCE-D5DAB3BD0155}" ShortID="1005269056">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.95533527696793"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.371519274376417"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="188248568"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_2" ID="{266B77BA-B516-4245-8BCE-D5DAB3BD0155}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_3" ID="{EE215869-EF84-41B3-B391-9F646B865916}" ShortID="847601871" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{E816A082-F06F-480D-86D4-840B62902BB7}" ShortID="1039380829">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.940408163265306"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.386446388079041"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="492776185"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_3" ID="{E816A082-F06F-480D-86D4-840B62902BB7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_4" ID="{49582C62-F0C8-4DE7-9C0A-F69AAECD84F6}" ShortID="204287518" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{6BB5A080-BFBE-403E-A4E1-A44A8E285056}" ShortID="304840524">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.18090055069647"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.19073534175575"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_4.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="262204399"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_4" ID="{6BB5A080-BFBE-403E-A4E1-A44A8E285056}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_5" ID="{D31963E6-0502-4976-BC23-835347540109}" ShortID="514824062" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_5" ID="{650C49A5-D198-4F34-B125-CA2202FD659D}" ShortID="594230944">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_5.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="303289734"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_5" ID="{650C49A5-D198-4F34-B125-CA2202FD659D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_6" ID="{F7B7BFDA-CB86-48D5-A97E-2FB15328AB0E}" ShortID="151728370" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_6" ID="{43CE4F71-4E65-466F-999D-36AAFB4340AA}" ShortID="203006738">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_6.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="871174579"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_6" ID="{43CE4F71-4E65-466F-999D-36AAFB4340AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_7" ID="{9985EAD7-A3D0-4AC7-9F80-DB4F7896D89E}" ShortID="17033922" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_7" ID="{3900232A-A543-469F-AE0C-E2DEEF2A89E1}" ShortID="336770977">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_7.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1063557448"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_7" ID="{3900232A-A543-469F-AE0C-E2DEEF2A89E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_8" ID="{D5647AD1-E682-4CDC-BB86-CB4523FB2D11}" ShortID="719407136" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_8" ID="{607C12D6-12EF-43A1-8DB4-01A949748CE9}" ShortID="131376830">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_8.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="113807843"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_8" ID="{607C12D6-12EF-43A1-8DB4-01A949748CE9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Silence" ID="{47482129-C1CF-490A-9049-974449A32E6A}" ShortID="162175932" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Silence" ID="{FC65A416-9F58-4543-8802-A35BBEF5055D}" ShortID="478474065" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+									<PropertyList>
+										<Property Name="Length" Type="Real32" Value="0.25"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Silence" ID="{FC65A416-9F58-4543-8802-A35BBEF5055D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Shotgun Shells Head" ID="{9ACABB7B-74ED-47E4-B8AF-BE96AA9DF7F5}"/>
+						<ItemRef Name="Silence" ID="{47482129-C1CF-490A-9049-974449A32E6A}"/>
+						<ItemRef Name="Shotgun Shells_Tail" ID="{FECFA792-530E-4839-9D5B-F2FA28005E6F}"/>
+					</Playlist>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

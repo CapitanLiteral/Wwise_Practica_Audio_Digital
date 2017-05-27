@@ -12,6 +12,47 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{2349B1CB-2F91-47A6-991F-1F0CA55388A8}" ShortID="734059533" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.4"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{15C12871-B2A1-4BD7-8341-DDF7B8040927}" Global="false">
+									<ObjectRef Name="Shotgun_Pump_In" ID="{171FB83C-BDB7-4446-8194-BD52F7785352}" WorkUnitID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{9E8DD220-60C6-4594-9F5F-3777F3225116}" ShortID="21411411" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.7"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{6B2E8E4E-B639-4633-BAA7-6B5E2FA2B41C}" Global="false">
+									<ObjectRef Name="Shotgun_Pump_Out" ID="{935D9311-4F5A-4A82-9F61-5B1366E7A17B}" WorkUnitID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{7E3676A6-606E-40D6-8F9C-1CECEA5D8DE8}" ShortID="271677448" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{48D109E5-DA3C-425C-BFC6-C4956A847345}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{C5448420-3D31-4834-A4BE-C0559DB1D0F2}" Global="false">
+									<ObjectRef Name="Shotgun Shells" ID="{A4586DBA-9754-421D-9A3B-D7067BD8225D}" WorkUnitID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>
