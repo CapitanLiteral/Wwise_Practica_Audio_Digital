@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Shotgun_Blast" ID="{E83399F5-848E-4B4C-BEBD-AA5D1267904F}" ShortID="128964744" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shotgun_Blast" ID="{CCC68338-379E-423C-B3D7-92D52CE8A200}" ShortID="856406436">
+							<Language>SFX</Language>
+							<AudioFile>Shotgun_Blast.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shotgun_Blast" ID="{CCC68338-379E-423C-B3D7-92D52CE8A200}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Shotgun_Pump_In" ID="{9554CE16-4EA1-4B19-80EB-86EBAA8CC4DE}" ShortID="779986402" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shotgun_Pump" ID="{1BFFDCF3-72F5-4DBE-A035-A1DFA2AFA5AF}" ShortID="101310036">
+							<Language>SFX</Language>
+							<AudioFile>Shotgun_Pump.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shotgun_Pump" ID="{1BFFDCF3-72F5-4DBE-A035-A1DFA2AFA5AF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Shotgun_Pump_Out" ID="{54025BA2-5D58-472F-ADDC-8EB5CFF295E2}" ShortID="782551096" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shotgun_Pump" ID="{A14FFA51-42DE-43B8-88B8-379DF6D7A135}" ShortID="328964265">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.93139213006763E-03"/>
+								<Property Name="TrimBegin" Type="Real64" Value="6.70468982294905E-02"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Shotgun_Pump.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shotgun_Pump" ID="{A14FFA51-42DE-43B8-88B8-379DF6D7A135}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Shotgun Shells" ID="{29F2DA92-21F0-4522-AAE3-D1CF657B114C}" ShortID="750572301">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Shotgun Shells Head" ID="{45061B61-A4ED-4F6C-8D42-B13A33981FE4}" ShortID="728381132">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9C708E50-221C-4535-BFEA-294447AE4CE0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ShotgunShellsConcrete_1" ID="{4B06E769-3426-4350-A494-1067A9AD7051}" ShortID="670766091" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{B2173F43-1D4C-4F4C-8B7A-46A202A1F36D}" ShortID="603801576">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.46039254553919E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.208313235522318"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="311899020"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_1" ID="{B2173F43-1D4C-4F4C-8B7A-46A202A1F36D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_2" ID="{20F34F12-446B-4A0D-9398-1A874549C8EC}" ShortID="406443300" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{8BBBDB59-80B8-4E1D-9C4C-0011395DF8BB}" ShortID="279401839">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.70922997602279E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.365778358436825"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="900882877"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_2" ID="{8BBBDB59-80B8-4E1D-9C4C-0011395DF8BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_3" ID="{E8272A7D-1B82-4B12-8CA4-79395053EE75}" ShortID="193069799" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{838F97E0-2C3C-4E75-B60D-E97402796DB5}" ShortID="528849503">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="5.08481126078099E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.377260190316009"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="900944804"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_3" ID="{838F97E0-2C3C-4E75-B60D-E97402796DB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_4" ID="{1D4CE86F-CA03-4D31-B1EC-36489036F12F}" ShortID="999767747" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{758A844A-17F4-49D8-B472-A426A17D56FF}" ShortID="353454111">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.96831403643135E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.198471665340161"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_4.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="47468586"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_4" ID="{758A844A-17F4-49D8-B472-A426A17D56FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_5" ID="{0F810096-B7C0-4E81-A7A2-7EC0B1EBA409}" ShortID="15262117" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Mac">False</Value>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_5" ID="{E20CF9FC-BA53-486E-AA3A-580FC9BE3CCB}" ShortID="1022238840">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_5" ID="{E20CF9FC-BA53-486E-AA3A-580FC9BE3CCB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_6" ID="{9ECF25D2-DF9F-452D-A48D-38EB9BF8AC44}" ShortID="1013698755" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Mac">False</Value>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_6" ID="{92CDFEE4-EF0D-44A4-ABF5-70A2FD580FE8}" ShortID="202208321">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_6" ID="{92CDFEE4-EF0D-44A4-ABF5-70A2FD580FE8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_7" ID="{533829BB-A4EA-45A7-83CF-22E7E22DEFAD}" ShortID="161826284" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Mac">False</Value>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_7" ID="{25231582-4E89-4F7A-824A-BDFE22A57861}" ShortID="235992065">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_7" ID="{25231582-4E89-4F7A-824A-BDFE22A57861}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_8" ID="{EDD60924-8612-4B43-9226-149D9517EB5C}" ShortID="783434462" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Mac">False</Value>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_8" ID="{F4CC0612-A5AB-4C4D-8552-1FF53B3EACC8}" ShortID="646209771">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_8" ID="{F4CC0612-A5AB-4C4D-8552-1FF53B3EACC8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Shotgun Shells Tail" ID="{AD5F1DC8-E06E-4B7B-825B-D322FEFF8DFB}" ShortID="994442779">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{17BBDE16-729A-46BC-A340-6C6789879244}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ShotgunShellsConcrete_1" ID="{10C0BC09-81DC-444F-B7B1-D3D03279A861}" ShortID="470889576" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{1876027E-27F9-4B1B-92DF-97C09F4EA561}" ShortID="311899020">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.84157018215676E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.336253647890356"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="603801576"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_1" ID="{1876027E-27F9-4B1B-92DF-97C09F4EA561}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_2" ID="{B874FEBF-3E79-4E43-8BD8-B04E336DF1A3}" ShortID="568278559" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{3566B4B8-A9A2-44EC-BA01-40A5EA1ED243}" ShortID="900882877">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.11649722434963E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.318210769223068"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="279401839"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_2" ID="{3566B4B8-A9A2-44EC-BA01-40A5EA1ED243}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_3" ID="{5768FF24-EEFA-4002-B7C2-E50DEEAF460C}" ShortID="876289560" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{C5931B1E-259D-4162-9624-988E365187DF}" ShortID="900944804">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.13234020613396E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.349375741466565"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="528849503"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_3" ID="{C5931B1E-259D-4162-9624-988E365187DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_4" ID="{653A3FAE-58CA-4773-AB49-A1FBEC5E0C96}" ShortID="458100956" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{9C83FAF0-1D28-40BC-99B9-D6BDE4FC1E9F}" ShortID="47468586">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.10065424256531E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.100055963518594"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_4.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="353454111"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_4" ID="{9C83FAF0-1D28-40BC-99B9-D6BDE4FC1E9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_5" ID="{BF3674E6-D5F4-4800-B473-CAAC48121046}" ShortID="290016293" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Mac">False</Value>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_5" ID="{CB1159FB-B577-42E8-AAE4-5693C7226093}" ShortID="837198518">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_5.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1022238840"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_5" ID="{CB1159FB-B577-42E8-AAE4-5693C7226093}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_6" ID="{2018C77A-5552-44E7-8EB5-431F13B4748D}" ShortID="339320605" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Mac">False</Value>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_6" ID="{2BDFE7C7-05A1-41E3-8958-E6DF5F3739DA}" ShortID="898302444">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_6.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="202208321"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_6" ID="{2BDFE7C7-05A1-41E3-8958-E6DF5F3739DA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_7" ID="{B9AD9D12-EAF7-46CD-9C4C-D07697DD7FFD}" ShortID="1016426010" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Mac">False</Value>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_7" ID="{23B5C660-2546-45E4-B4DF-B7E513C0434C}" ShortID="316331375">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_7.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="235992065"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_7" ID="{23B5C660-2546-45E4-B4DF-B7E513C0434C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ShotgunShellsConcrete_8" ID="{5C56977C-794B-4AC8-BB0F-1E5D380BA127}" ShortID="331102018" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Mac">False</Value>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ShotgunShellsConcrete_8" ID="{D24CDFE8-796B-415E-9354-AC01A59D0246}" ShortID="410115740">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun Shells\ShotgunShellsConcrete_8.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="646209771"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ShotgunShellsConcrete_8" ID="{D24CDFE8-796B-415E-9354-AC01A59D0246}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Silence" ID="{395C79C1-03A1-4D44-9A72-1439104DF747}" ShortID="117812407" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Silence" ID="{E7CD12B9-2624-4AAD-9414-323759F956C7}" ShortID="150121663" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+									<PropertyList>
+										<Property Name="Length" Type="Real32" Value="0.25"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Silence" ID="{E7CD12B9-2624-4AAD-9414-323759F956C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Shotgun Shells Head" ID="{45061B61-A4ED-4F6C-8D42-B13A33981FE4}"/>
+						<ItemRef Name="Silence" ID="{395C79C1-03A1-4D44-9A72-1439104DF747}"/>
+						<ItemRef Name="Shotgun Shells Tail" ID="{AD5F1DC8-E06E-4B7B-825B-D322FEFF8DFB}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<SwitchContainer Name="Footsteps" ID="{25B969A9-71F3-49A8-A060-4069769E4609}" ShortID="343406634">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Concrete" ID="{1173E520-166B-477E-B3A7-239E1EE8C220}" ShortID="61346622">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS_Concrete_01" ID="{83220076-5517-4D15-9E91-EFE08E117AF7}" ShortID="750803966" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Concrete_01" ID="{A8AFA481-B3CB-4321-882D-264518C0AE6A}" ShortID="262345643">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Concrete\FS_Concrete_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Concrete_01" ID="{A8AFA481-B3CB-4321-882D-264518C0AE6A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Concrete_02" ID="{3A2B6CD9-1B33-46DE-AF4D-30BC8F8F572F}" ShortID="294023396" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Concrete_02" ID="{D543BB4F-9074-4FC8-8EC1-D82B4E418F89}" ShortID="800827659">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Concrete\FS_Concrete_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Concrete_02" ID="{D543BB4F-9074-4FC8-8EC1-D82B4E418F89}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Concrete_03" ID="{337B9802-A430-497F-B304-3808751902ED}" ShortID="81638208" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Concrete_03" ID="{2EFEA875-2F14-4DD1-976F-9FFAE2252ACE}" ShortID="563265741">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Concrete\FS_Concrete_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Concrete_03" ID="{2EFEA875-2F14-4DD1-976F-9FFAE2252ACE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Concrete_04" ID="{D506295F-0AD3-4B69-9410-1C30D53EF16A}" ShortID="632713271" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Concrete_04" ID="{04051133-5F4A-4704-9BE0-2DAF7DB2D34C}" ShortID="19006739">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Concrete\FS_Concrete_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Concrete_04" ID="{04051133-5F4A-4704-9BE0-2DAF7DB2D34C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dirt" ID="{DF350A12-A8E1-4DFD-BE41-4FB7DCD8F822}" ShortID="628296602">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS_Dirt_01" ID="{0181C8DC-F5C9-423A-84D9-20B622BE0708}" ShortID="630201962" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Dirt_01" ID="{56AFEAB0-57E5-408E-B647-E014BFB72C9C}" ShortID="722686775">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Dirt\FS_Dirt_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Dirt_01" ID="{56AFEAB0-57E5-408E-B647-E014BFB72C9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Dirt_02" ID="{E31632EE-8E1B-4908-BB29-3BD6BB7D0C14}" ShortID="259852579" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Dirt_02" ID="{BD4CA668-72FF-4F47-AB6B-4BA9DF700F66}" ShortID="733402776">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Dirt\FS_Dirt_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Dirt_02" ID="{BD4CA668-72FF-4F47-AB6B-4BA9DF700F66}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Dirt_03" ID="{C60EA93D-69E8-43ED-8B00-E4FF4A966954}" ShortID="352218654" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Dirt_03" ID="{9D35AEE4-4941-49C9-B9EF-086039EACABD}" ShortID="772542180">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Dirt\FS_Dirt_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Dirt_03" ID="{9D35AEE4-4941-49C9-B9EF-086039EACABD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Dirt_04" ID="{ACD95164-2B5E-4372-B559-65513A44D92B}" ShortID="251831802" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Dirt_04" ID="{31EB04B4-33A1-49BA-BF1B-028D8D9085DC}" ShortID="906767158">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Dirt\FS_Dirt_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Dirt_04" ID="{31EB04B4-33A1-49BA-BF1B-028D8D9085DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Gravel" ID="{F48B4815-D316-4EEF-968E-DA2E61A74C98}" ShortID="869206276">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS_Gravel_01" ID="{7DBAC86E-545F-4988-AAE6-E9F644529660}" ShortID="814089289" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Gravel_01" ID="{67389BFD-3316-431F-94D7-54CDEEA49DC7}" ShortID="176171452">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Gravel\FS_Gravel_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Gravel_01" ID="{67389BFD-3316-431F-94D7-54CDEEA49DC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Gravel_02" ID="{320536DA-1D04-442B-BFC0-6D87E3CBF05B}" ShortID="1054268764" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Gravel_02" ID="{FAE045C8-5E57-4821-AD44-0243EEEAB0F8}" ShortID="647234709">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Gravel\FS_Gravel_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Gravel_02" ID="{FAE045C8-5E57-4821-AD44-0243EEEAB0F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Gravel_03" ID="{8BB70949-266B-4F21-82FC-D9D9F047E2EB}" ShortID="932354563" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Gravel_03" ID="{3FA26E28-8BCB-45D0-8DB1-30C53325F4C1}" ShortID="832496388">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Gravel\FS_Gravel_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Gravel_03" ID="{3FA26E28-8BCB-45D0-8DB1-30C53325F4C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Gravel_04" ID="{B93C5FF7-BFA0-416A-AE4E-2AF2D9B16097}" ShortID="194352958" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Gravel_04" ID="{E723DA54-BD0E-4AB2-949C-33A127F0805E}" ShortID="723703927">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Gravel\FS_Gravel_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Gravel_04" ID="{E723DA54-BD0E-4AB2-949C-33A127F0805E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Tile" ID="{9E542705-55FB-4D90-9F16-78EC3A2C1BDE}" ShortID="1047726914">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS_Tile_01" ID="{4163EFE7-8F3A-41B5-B8E0-EA3F9E5FBE3A}" ShortID="803164663" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Tile_01" ID="{9C9C000F-A6FE-4CF4-A33C-629E61681F97}" ShortID="695382836">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Tile\FS_Tile_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Tile_01" ID="{9C9C000F-A6FE-4CF4-A33C-629E61681F97}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Tile_02" ID="{E5C24EFA-EF3A-4620-819C-58707B914096}" ShortID="288849882" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Tile_02" ID="{8B1FB542-0D1E-44FF-918E-BA6D06920475}" ShortID="724815685">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Tile\FS_Tile_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Tile_02" ID="{8B1FB542-0D1E-44FF-918E-BA6D06920475}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Tile_03" ID="{60780C02-8EDF-40D0-AF8F-457F003F841B}" ShortID="120319224" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Tile_03" ID="{2A1CCF12-2197-49B9-9F18-3316C518D30C}" ShortID="679523343">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Tile\FS_Tile_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Tile_03" ID="{2A1CCF12-2197-49B9-9F18-3316C518D30C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Tile_04" ID="{4C256D9E-2F47-4006-B7BF-40D8F7ACB629}" ShortID="143675483" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Tile_04" ID="{2874017D-AF61-4BAB-B43D-3A0867775945}" ShortID="829225605">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Tile\FS_Tile_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Tile_04" ID="{2874017D-AF61-4BAB-B43D-3A0867775945}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupRef Name="Material" ID="{B2F4E499-6D2F-412B-ADC1-7703F5C30A15}"/>
+						<DefaultSwitchRef Name="Concrete" ID="{3173151C-90CE-45B9-B4A7-A7EEDC6283A6}"/>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Tile" ID="{9E542705-55FB-4D90-9F16-78EC3A2C1BDE}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Dirt" ID="{DF350A12-A8E1-4DFD-BE41-4FB7DCD8F822}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravel" ID="{F48B4815-D316-4EEF-968E-DA2E61A74C98}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Concrete" ID="{1173E520-166B-477E-B3A7-239E1EE8C220}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{46D4B914-7022-45CB-85F4-720F74998F6A}"/>
+								<ItemList>
+									<ItemRef Name="Concrete" ID="{1173E520-166B-477E-B3A7-239E1EE8C220}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Concrete" ID="{3173151C-90CE-45B9-B4A7-A7EEDC6283A6}"/>
+								<ItemList>
+									<ItemRef Name="Concrete" ID="{1173E520-166B-477E-B3A7-239E1EE8C220}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Metal" ID="{1E389D39-9780-4CFB-B183-FB38522203AE}"/>
+								<ItemList>
+									<ItemRef Name="Tile" ID="{9E542705-55FB-4D90-9F16-78EC3A2C1BDE}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Water" ID="{261D0044-59D8-4107-B13E-0A8D40047C7B}"/>
+								<ItemList>
+									<ItemRef Name="Dirt" ID="{DF350A12-A8E1-4DFD-BE41-4FB7DCD8F822}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Wood" ID="{3BD24A55-0CD5-4AA9-B2E7-88FCEB851009}"/>
+								<ItemList>
+									<ItemRef Name="Tile" ID="{9E542705-55FB-4D90-9F16-78EC3A2C1BDE}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Gravel" ID="{21AE6CB2-4A06-42F8-9316-C395CFFE25B8}"/>
+								<ItemList>
+									<ItemRef Name="Gravel" ID="{F48B4815-D316-4EEF-968E-DA2E61A74C98}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Grass" ID="{2CE9F4B9-77D9-4BBD-8C0D-C49034E23E74}"/>
+								<ItemList>
+									<ItemRef Name="Dirt" ID="{DF350A12-A8E1-4DFD-BE41-4FB7DCD8F822}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Tile" ID="{1077D8CF-2200-49FA-86F6-B1645019C8A0}"/>
+								<ItemList>
+									<ItemRef Name="Tile" ID="{9E542705-55FB-4D90-9F16-78EC3A2C1BDE}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Sand" ID="{A388D0FD-14BF-4568-9D2A-183BFC3125AB}"/>
+								<ItemList>
+									<ItemRef Name="Dirt" ID="{DF350A12-A8E1-4DFD-BE41-4FB7DCD8F822}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Sound Name="Heartbeat" ID="{78F2EFA4-2EC2-494C-B826-226D94460EA1}" ShortID="441048260" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{BCB1B3DD-B2B1-40D9-8354-911DA9AA4BD9}" ShortID="576801976">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PlayerHealth" ID="{235CC7A7-50A7-43F1-8A21-C6CF719D3203}" WorkUnitID="{3730BD51-F4D2-44D4-B909-5A881A6F8836}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1F95CE41-CEC8-4C1C-9411-F599C500D1A2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>60.5042</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{C43A88A2-F4F0-4D84-8E81-8506E3C60FE3}" ShortID="600320240">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PlayerHealth" ID="{235CC7A7-50A7-43F1-8A21-C6CF719D3203}" WorkUnitID="{3730BD51-F4D2-44D4-B909-5A881A6F8836}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{87A90763-DF8A-450E-BEDD-B9037192B2B5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Heartbeat" ID="{79CB97A4-10AD-4590-B9FA-D91D48CE9199}" ShortID="326365892">
+							<Language>SFX</Language>
+							<AudioFile>Heartbeat.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PlayerLife" ID="{C288A0FE-5243-491A-AA39-E5F1BEE6AD66}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Dead" ID="{F64F2AE6-E81E-4DDE-99EC-F827686D3B74}"/>
+								<State Name="Custom State" ID="{336A210B-87A9-4B89-8258-CDB518986133}" ShortID="153869034">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="100"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Heartbeat" ID="{79CB97A4-10AD-4590-B9FA-D91D48CE9199}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
