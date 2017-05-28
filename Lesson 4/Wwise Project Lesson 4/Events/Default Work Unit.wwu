@@ -76,6 +76,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Emitter_Teleport" ID="{1159ED34-94EF-4EEF-BE33-6B4F515359A1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F2C8273C-26B9-4A3A-AA11-5D54A54DD7E5}" ShortID="579324924" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3C53C63D-776C-406B-86A3-ABF1394365EF}" Global="false">
+									<ObjectRef Name="Teleport" ID="{7941065D-FD06-4293-BB09-761DA77618E9}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

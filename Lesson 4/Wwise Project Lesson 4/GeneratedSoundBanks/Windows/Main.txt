@@ -1,0 +1,68 @@
+Event	ID	Name			Wwise Object Path	Notes
+	598337033	Emitter_Teleport			\Default Work Unit\Emitter_Teleport	
+	1367775454	Fire_Shotgun_Player			\Default Work Unit\Fire_Shotgun_Player	
+	1894362767	Foot_Player			\Default Work Unit\Foot_Player	
+	3721111614	DCP_Music			\Default Work Unit\DCP_Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	Material			
+	841620460	Concrete	Material			
+	1216965916	Stone	Material			
+	2058049674	Wood	Material			
+	2185786256	Gravel	Material			
+	2473969246	Metal	Material			
+	2637588553	Tile	Material			
+	2654748154	Water	Material			
+	4248645337	Grass	Material			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	2044049779	Dead	PlayerLife			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	760905679	Dead	PlayerLife	\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	395225993	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	71525550	FS_Tile_01	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Tile\FS_Tile_01_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_01		30628
+	108752886	FS_Gravel_03	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Gravel\FS_Gravel_03_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\FS_Gravel_03		35004
+	122062642	FS_Gravel_01	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Gravel\FS_Gravel_01_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\FS_Gravel_01		31200
+	201601495	ShotgunShellsConcrete_1	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_1_14E4055E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Tail\ShotgunShellsConcrete_1		30734
+	314196479	ShotgunShellsConcrete_1	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_1_8C6A703E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_1		11284
+	343737697	FS_Tile_02	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Tile\FS_Tile_02_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_02		43822
+	412191914	FS_Gravel_02	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Gravel\FS_Gravel_02_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\FS_Gravel_02		24808
+	438362084	FS_Concrete_02	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Concrete\FS_Concrete_02_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_02		29968
+	504102903	ShotgunShellsConcrete_4	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_4_F0D70411.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Tail\ShotgunShellsConcrete_4		113776
+	577120568	ShotgunShellsConcrete_3	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_3_90A18B69.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Tail\ShotgunShellsConcrete_3		96560
+	583225874	ShotgunShellsConcrete_2	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_2_D55C5358.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Tail\ShotgunShellsConcrete_2		98586
+	608480767	FS_Dirt_01	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Dirt\FS_Dirt_01_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\FS_Dirt_01		43842
+	636862517	FS_Concrete_04	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Concrete\FS_Concrete_04_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_04		21354
+	642406979	FS_Concrete_01	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Concrete\FS_Concrete_01_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_01		23386
+	688698589	ShotgunShellsConcrete_3	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_3_573A9609.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_3		34866
+	690631133	ShotgunShellsConcrete_4	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_4_80B99D2D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_4		17794
+	692996909	Teleport	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Teleport_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleport		3675684
+	713286434	Shotgun_Blast	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun_Blast_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun_Blast		201096
+	720737159	ShotgunShellsConcrete_2	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun Shells\ShotgunShellsConcrete_2_DE40CC45.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_2		32406
+	760380131	FS_Dirt_03	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Dirt\FS_Dirt_03_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\FS_Dirt_03		75860
+	799347568	FS_Dirt_02	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Dirt\FS_Dirt_02_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\FS_Dirt_02		75860
+	866317371	FS_Gravel_04	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Gravel\FS_Gravel_04_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\FS_Gravel_04		25572
+	868657921	FS_Tile_03	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Tile\FS_Tile_03_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_03		47798
+	886501766	Shotgun_Pump_Out	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun_Pump_EFB27889.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun pumps\Shotgun_Pump_Out		16222
+	927601829	FS_Concrete_03	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Concrete\FS_Concrete_03_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_03		34578
+	968109938	FS_Tile_04	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Tile\FS_Tile_04_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_04		34794
+	980452861	FS_Dirt_04	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Dirt\FS_Dirt_04_BD8333EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\FS_Dirt_04		54340
+	1030077981	Heartbeat	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Heartbeat_1F561A99.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat		193474
+	1042428374	Shotgun_Pump_In	C:\Users\anara\Documents\GitHub\Wwise_Practica_Audio_Digital\Lesson 4\Wwise Project Lesson 4\.cache\Windows\SFX\Shotgun_Pump_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shotgun pumps\Shotgun_Pump_In		22112
+
