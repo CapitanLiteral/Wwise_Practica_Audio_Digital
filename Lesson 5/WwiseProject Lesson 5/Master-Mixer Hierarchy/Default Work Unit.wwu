@@ -18,6 +18,31 @@
 							</Custom>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Environmental" ID="{ECE56B0F-1485-4B89-927A-F23B725E0B3E}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="SFX" ID="{621F9891-5CF7-4F43-988D-8E99E3CA068D}"/>
+								<AuxBus Name="env_corridor" ID="{5E8F46CF-45B0-4DF7-B9A4-639EAA89588A}"/>
+							</ChildrenList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{6666D596-FC4C-4DF7-813D-44878A559FA8}"/>
+									<DuckingParam>
+										<Volume>-9</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Music" ID="{6666D596-FC4C-4DF7-813D-44878A559FA8}"/>
+					</ChildrenList>
 				</Bus>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
