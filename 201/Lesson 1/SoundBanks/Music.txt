@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	323478937	Explore-Piano_138bpm4-4_L16M-P0	E:\Repos\Wwise_Practica_Audio_Digital\201\Lesson 1\.cache\Windows\SFX\Explore-Piano_138bpm4-4_L16M-P0_9452F465.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Piano_138bpm4-4_L16M-P0\Explore-Piano_138bpm4-4_L16M-P0		6678324
+	364588757	Explore-TransToBridge_138bpm3-4_L3M-P1M	E:\Repos\Wwise_Practica_Audio_Digital\201\Lesson 1\.cache\Windows\SFX\Explore-TransToBridge_138bpm3-4_L3M-P1M_9452F465.wem		\Interactive Music Hierarchy\Music\Explore\Explore-TransToBridge_138bpm3-4_L3M-P1M\Explore-TransToBridge_138bpm3-4_L3M-P1M		1753112
+	371005976	Explore-Bridge_138bpm4-4_L17M-P0	E:\Repos\Wwise_Practica_Audio_Digital\201\Lesson 1\.cache\Windows\SFX\Explore-Bridge_138bpm4-4_L17M-P0_9452F465.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Bridge_138bpm4-4_L17M-P0\Explore-Bridge_138bpm4-4_L17M-P0		6528144
+	570961220	Explore-Rhythm_138bpm4-4_L16M-P1M	E:\Repos\Wwise_Practica_Audio_Digital\201\Lesson 1\.cache\Windows\SFX\Explore-Rhythm_138bpm4-4_L16M-P1M_9452F465.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Rhythm_138bpm4-4_L16M-P1M\Explore-Rhythm_138bpm4-4_L16M-P1M		6344412
+	874464745	Explore-Theme_138bpm4-4_L16M-P1M	E:\Repos\Wwise_Practica_Audio_Digital\201\Lesson 1\.cache\Windows\SFX\Explore-Theme_138bpm4-4_L16M-P1M_9452F465.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Theme_138bpm4-4_L16M-P1M\Explore-Theme_138bpm4-4_L16M-P1M		6344412
+	925444233	Explore-Arpeggio_138bpm4-4_L16M-P1M	E:\Repos\Wwise_Practica_Audio_Digital\201\Lesson 1\.cache\Windows\SFX\Explore-Arpeggio_138bpm4-4_L16M-P1M_9452F465.wem		\Interactive Music Hierarchy\Music\Explore\Explore-Arpeggio_138bpm4-4_L16M-P1M\Explore-Arpeggio_138bpm4-4_L16M-P1M		6344412
+

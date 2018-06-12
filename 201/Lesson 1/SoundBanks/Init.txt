@@ -1,0 +1,49 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	Player is alive or dead.
+	481714212	PlayerInWater			\Default Work Unit\PlayerInWater	Player is in water.
+	1642418719	PlayerHasQuad			\Default Work Unit\PlayerHasQuad	Player is in quad damage mode.
+
+State	ID	Name	State Group			Notes
+	0	None	PlayerLife			
+	655265632	Alive	PlayerLife			
+	2044049779	Dead	PlayerLife			
+	0	None	PlayerInWater			
+	979470758	Yes	PlayerInWater			
+	1668749452	No	PlayerInWater			
+	0	None	PlayerHasQuad			
+	979470758	Yes	PlayerHasQuad			
+	1668749452	No	PlayerHasQuad			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	1048049432	Dead	PlayerLife	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\Environmental\SFX	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	1467963052	Weapons			\Default Work Unit\Master Audio Bus\Environmental\SFX\Weapons	
+	1973600711	Environmental			\Default Work Unit\Master Audio Bus\Environmental	
+	2151963051	Items			\Default Work Unit\Master Audio Bus\Environmental\SFX\Items	
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\Environmental\Voice	
+	3381091279	Main Character			\Default Work Unit\Master Audio Bus\Environmental\SFX\Main Character	
+	3761286811	Environments			\Default Work Unit\Master Audio Bus\Environmental\Environments	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3858746980	Monsters			\Default Work Unit\Master Audio Bus\Environmental\SFX\Monsters	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	194525819	env_corridor			\Default Work Unit\Master Audio Bus\Environmental\Environments\env_corridor	
+	783969252	Env_small_room			\Default Work Unit\Master Audio Bus\Environmental\Environments\Env_small_room	
+	3877888880	env_large_room			\Default Work Unit\Master Audio Bus\Environmental\Environments\env_large_room	
+	4102571502	env_medium_room			\Default Work Unit\Master Audio Bus\Environmental\Environments\env_medium_room	
+
+Effect plug-ins	ID	Name	Type				Notes
+	194525819	env_corridor	Wwise RoomVerb			
+	314948159	Wwise Compressor (Custom)	Wwise Compressor			
+	953188324	Default (Custom)	Wwise Peak Limiter			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3877888880	env_large_room	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
