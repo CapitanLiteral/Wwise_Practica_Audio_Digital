@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Explore" ID="{3F63E32B-58A0-41E8-88C4-F97166420561}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
+									<ObjectRef Name="Combat" ID="{2F0BDE2A-D2CC-4A86-BC31-D34BECE52567}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
